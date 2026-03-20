@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgis/postgis:16-master
+    container_name: PostgresDB
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    volumes:
+      - postgres_data_db:/var/lib/postgresql
+
+volumes:
+  postgres_data_db:
+

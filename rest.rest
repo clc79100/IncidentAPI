@@ -1,0 +1,135 @@
+###
+GET http://localhost:3000/api/incidents/radius/?lat=21.136177&lon=-101.663196&radiusInMeters=500
+
+###
+GET http://localhost:3000/api/incidents/radius?lat=21.
+
+
+###
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Robo en Zona Centro",
+  "description": "Se reporta robo a transeúnte en la calle Madero, cerca de la Plaza Principal.",
+  "lat": 21.1250,
+  "lon": -101.6860,
+  "type": 2
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Bache en Blvd. López Mateos",
+  "description": "Bache de gran tamaño en el carril central del Blvd. López Mateos a la altura de Plaza Mayor.",
+  "lat": 21.1185,
+  "lon": -101.6530,
+  "type": 8
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Incendio en bodega en zona industrial",
+  "description": "Incendio activo en una bodega de la zona industrial de León, se requieren bomberos.",
+  "lat": 21.1452,
+  "lon": -101.7105,
+  "type": 10
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Choque múltiple en Blvd. Timoteo Lozano",
+  "description": "Accidente vehicular con 3 autos involucrados, hay personas lesionadas.",
+  "lat": 21.1320,
+  "lon": -101.6700,
+  "type": 7
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Fuga de agua en Col. Jardines de Jerez",
+  "description": "Fuga de agua potable en la calle Río Nilo, el agua lleva más de 2 días saliendo.",
+  "lat": 21.1080,
+  "lon": -101.6450,
+  "type": 18
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Semáforo descompuesto en Blvd. Campestre",
+  "description": "El semáforo del cruce de Blvd. Campestre y Av. Olímpica no funciona, hay tráfico intenso.",
+  "lat": 21.1395,
+  "lon": -101.6345,
+  "type": 9
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Vandalismo en Parque Metropolitano",
+  "description": "Grafiti y daño a bancas y luminarias en el Parque Metropolitano de León.",
+  "lat": 21.1550,
+  "lon": -101.7250,
+  "type": 3
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Emergencia médica en Centro Max",
+  "description": "Persona desmayada en el área de comida del Centro Comercial Centro Max.",
+  "lat": 21.1280,
+  "lon": -101.6920,
+  "type": 21
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Apagón en Col. León Moderno",
+  "description": "Corte de energía eléctrica que afecta a varias manzanas de la colonia León Moderno.",
+  "lat": 21.1190,
+  "lon": -101.6780,
+  "type": 17
+}
+
+###
+
+POST http://localhost:3000/api/incidents/
+Content-Type: application/json
+
+{
+  "title": "Coladera abierta en Av. Miguel Alemán",
+  "description": "Coladera sin tapa en Av. Miguel Alemán, representa peligro para peatones y vehículos.",
+  "lat": 21.1345,
+  "lon": -101.6615,
+  "type": 19
+}
