@@ -7,6 +7,8 @@ export class IncidentsController {
 
   constructor(private readonly incidentService: IncidentsService) { }
 
+  
+
   @Post()
   async createIncident(@Body() incident: IncidentCDto) {
     const result = await this.incidentService.createIncident(incident);

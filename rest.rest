@@ -4,6 +4,8 @@ GET http://localhost:3000/api/incidents/radius/?lat=21.136177&lon=-101.663196&ra
 ###
 GET http://localhost:3000/api/incidents/radius?lat=21.
 
+###
+GET http://localhost:3000/api/incidents/
 
 ###
 POST http://localhost:3000/api/incidents/
