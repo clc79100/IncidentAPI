@@ -1,16 +1,15 @@
 services:
-
   incident-api:
     image: 612-incident-api:latest
     container_name: IncidentAPI
     ports:
-    - 3000:3000
+      - 3000:3000
     environment:
       PORT: ${PORT}
-      MAILER_EMAIL: ${MAPBOX_TOKEN}
-      MAILER_PASSWORD: ${MAILER_EMAIL}
-      MAILER_SERVICE: ${MAILER_PASSWORD}
-      MAPBOX_TOKEN: ${MAILER_SERVICE}
+      MAILER_EMAIL: ${MAILER_EMAIL}
+      MAILER_PASSWORD: ${MAILER_PASSWORD}
+      MAILER_SERVICE: ${MAILER_SERVICE}
+      MAPBOX_TOKEN: ${MAPBOX_TOKEN}
       DB_PASSWORD: ${DB_PASSWORD}
       DB_NAME: ${DB_NAME}
       DB_PORT: ${DB_PORT}
@@ -31,7 +30,6 @@ services:
     volumes:
       - postgres_data_db:/var/lib/postgresql
 
-      
   redis:
     image: redis
     container_name: 612-incident-redis
@@ -39,7 +37,6 @@ services:
       - 6379:6379
     volumes:
       - redis_data_db:/data
-
 
 volumes:
   postgres_data_db:
