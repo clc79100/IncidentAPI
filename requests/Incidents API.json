@@ -1,0 +1,920 @@
+{
+  "name": "Incidents API",
+  "last_position": 18446744073709551615,
+  "requests": [
+    {
+      "name": "GET Incidents by Radius",
+      "url": "http://localhost:3000/api/incidents/radius/",
+      "params": [
+        {
+          "enabled": true,
+          "data": [
+            "lat",
+            "21.136177"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "lon",
+            "-101.663196"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "radiusInMeters",
+            "500"
+          ]
+        }
+      ],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "GET",
+        "body": "no_body"
+      }
+    },
+    {
+      "name": "GET All Incidents",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "GET",
+        "body": "no_body"
+      }
+    },
+    {
+      "name": "POST Robo en Zona Centro",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Bache en Blvd. López Mateos\",\n  \"description\": \"Bache de gran tamaño en el carril central del Blvd. López Mateos a la altura de Plaza Mayor.\",\n  \"lat\": 21.1185,\n  \"lon\": -101.6530,\n  \"type\": 8\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Bache en Blvd. López Mateos",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Bache en Blvd. López Mateos\",\n  \"description\": \"Bache de gran tamaño en el carril central del Blvd. López Mateos a la altura de Plaza Mayor.\",\n  \"lat\": 21.1185,\n  \"lon\": -101.6530,\n  \"type\": 8\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Incendio en bodega",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Incendio en bodega en zona industrial\",\n  \"description\": \"Incendio activo en una bodega de la zona industrial de León, se requieren bomberos.\",\n  \"lat\": 21.1452,\n  \"lon\": -101.7105,\n  \"type\": 10\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Choque múltiple en Blvd. Timoteo Lozano",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Choque múltiple en Blvd. Timoteo Lozano\",\n  \"description\": \"Accidente vehicular con 3 autos involucrados, hay personas lesionadas.\",\n  \"lat\": 21.1320,\n  \"lon\": -101.6700,\n  \"type\": 7\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Fuga de agua en Col. Jardines de Jerez",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Fuga de agua en Col. Jardines de Jerez\",\n  \"description\": \"Fuga de agua potable en la calle Río Nilo, el agua lleva más de 2 días saliendo.\",\n  \"lat\": 21.1080,\n  \"lon\": -101.6450,\n  \"type\": 18\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Semáforo descompuesto en Blvd. Campestre",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Semáforo descompuesto en Blvd. Campestre\",\n  \"description\": \"El semáforo del cruce de Blvd. Campestre y Av. Olímpica no funciona, hay tráfico intenso.\",\n  \"lat\": 21.1395,\n  \"lon\": -101.6345,\n  \"type\": 9\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Vandalismo en Parque Metropolitano",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Vandalismo en Parque Metropolitano\",\n  \"description\": \"Grafiti y daño a bancas y luminarias en el Parque Metropolitano de León.\",\n  \"lat\": 21.1550,\n  \"lon\": -101.7250,\n  \"type\": 3\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Emergencia médica en Centro Max",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Emergencia médica en Centro Max\",\n  \"description\": \"Persona desmayada en el área de comida del Centro Comercial Centro Max.\",\n  \"lat\": 21.1280,\n  \"lon\": -101.6920,\n  \"type\": 21\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Apagón en Col. León Moderno",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Apagón en Col. León Moderno\",\n  \"description\": \"Corte de energía eléctrica que afecta a varias manzanas de la colonia León Moderno.\",\n  \"lat\": 21.1190,\n  \"lon\": -101.6780,\n  \"type\": 17\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Coladera abierta en Av. Miguel Alemán",
+      "url": "http://localhost:3000/api/incidents/",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "Content-Type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "POST",
+        "body": {
+          "json": "{\n  \"title\": \"Coladera abierta en Av. Miguel Alemán\",\n  \"description\": \"Coladera sin tapa en Av. Miguel Alemán, representa peligro para peatones y vehículos.\",\n  \"lat\": 21.1345,\n  \"lon\": -101.6615,\n  \"type\": 19\n}"
+        }
+      }
+    },
+    {
+      "name": "dsds",
+      "url": "",
+      "params": [],
+      "headers": [
+        {
+          "enabled": true,
+          "data": [
+            "cache-control",
+            "no-cache"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "user-agent",
+            "ATAC/v0.23.0"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept",
+            "*/*"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "accept-encoding",
+            "gzip, deflate, br"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "connection",
+            "keep-alive"
+          ]
+        },
+        {
+          "enabled": true,
+          "data": [
+            "content-type",
+            "application/json"
+          ]
+        }
+      ],
+      "auth": "no_auth",
+      "scripts": {
+        "pre_request_script": null,
+        "post_request_script": null
+      },
+      "settings": {
+        "use_config_proxy": true,
+        "allow_redirects": true,
+        "timeout": 30000,
+        "store_received_cookies": true,
+        "pretty_print_response_content": true,
+        "accept_invalid_certs": false,
+        "accept_invalid_hostnames": false
+      },
+      "protocol": {
+        "type": "http",
+        "method": "GET",
+        "body": {
+          "json": ""
+        }
+      }
+    }
+  ]
+}
